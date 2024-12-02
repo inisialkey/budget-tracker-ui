@@ -1,5 +1,7 @@
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
+import 'package:budget_tracker_ui/pages/budget_page.dart';
 import 'package:budget_tracker_ui/pages/daily_page.dart';
+import 'package:budget_tracker_ui/pages/stats_page.dart';
 import 'package:budget_tracker_ui/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
@@ -15,6 +17,8 @@ class _RootAppState extends State<RootApp> {
   int pageIndex = 0;
   List<Widget> pages = [
     const DailyPage(),
+    const StatsPage(),
+    const BudgetPage(),
   ];
 
   @override
