@@ -6,10 +6,10 @@ import 'package:percent_indicator/circular_percent_indicator.dart';
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
   @override
-  _ProfilePageState createState() => _ProfilePageState();
+  ProfilePageState createState() => ProfilePageState();
 }
 
-class _ProfilePageState extends State<ProfilePage> {
+class ProfilePageState extends State<ProfilePage> {
   final TextEditingController _email =
       TextEditingController(text: "abbie_wilson@gmail.com");
   TextEditingController dateOfBirth = TextEditingController(text: "04-19-1992");
@@ -62,7 +62,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     children: [
                       SizedBox(
                         width: (size.width - 40) * 0.4,
-                        child: Container(
+                        child: SizedBox(
                           child: Stack(
                             children: [
                               RotatedBox(
