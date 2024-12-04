@@ -34,6 +34,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_vector_icons: ^2.0.0
+  percent_indicator: ^4.2.4
 
 dev_dependencies:
   flutter_lints: ^3.0.0

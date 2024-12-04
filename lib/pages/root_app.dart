@@ -1,6 +1,7 @@
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:budget_tracker_ui/pages/budget_page.dart';
 import 'package:budget_tracker_ui/pages/daily_page.dart';
+import 'package:budget_tracker_ui/pages/profile_page.dart';
 import 'package:budget_tracker_ui/pages/stats_page.dart';
 import 'package:budget_tracker_ui/theme/colors.dart';
 import 'package:flutter/material.dart';
@@ -19,6 +20,7 @@ class _RootAppState extends State<RootApp> {
     const DailyPage(),
     const StatsPage(),
     const BudgetPage(),
+    const ProfilePage(),
   ];
 
   @override
